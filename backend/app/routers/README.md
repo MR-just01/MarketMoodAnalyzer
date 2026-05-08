@@ -1,0 +1,2 @@
+# Services Directory
+Contains the core business logic, third-party integrations (e.g., Supabase, ML model inference), and reusable functions. The `main.py` entry point and endpoints within `routers/` import logic from this directory to execute tasks.

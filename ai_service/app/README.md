@@ -1,0 +1,2 @@
+# App Directory
+The core application module. Contains the main FastAPI application instance (`main.py`), database connection setups (`database.py`), and configuration files. It serves as the root package for the microservice.
