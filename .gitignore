@@ -3,3 +3,14 @@
 venv/
 __pycache__/
 *.env
+# Ignore raw data files
+*.csv
+data_pipelines/*.csv
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore the trained model brains (Optional)
+# Some engineers push .json models, but usually, it's better to keep them local 
+# and let the script generate them. 
+# trained_models/*.json

@@ -1,5 +1,4 @@
 import os
-# pyrefly: ignore [missing-import]
 from supabase import create_client, Client
 
 SUPABASE_URL = os.environ.get("https://fdzznuelgacwahsjzjji.supabase.co/rest/v1/", "")

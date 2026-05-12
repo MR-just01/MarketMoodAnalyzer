@@ -1,0 +1,15 @@
+# FastAPI & Web
+fastapi>=0.100.0
+uvicorn>=0.23.0
+pydantic>=2.0.0
+
+# Data processing
+polars>=0.20.0
+
+# Sentiment Analysis (FinBERT)
+transformers>=4.35.0
+torch>=2.1.0
+
+# Vector Store (RAG)
+chromadb>=0.4.22
+sentence-transformers>=2.2.0
